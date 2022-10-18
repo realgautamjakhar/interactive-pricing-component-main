@@ -17,6 +17,7 @@ const valuemap = [
     {value:"5", viewpermonth:"1M",valueperviews:"36"}
 ]
 slider.addEventListener("click",displayinfo)
+slider.addEventListener("touchmove",displayinfo)
 function displayinfo(){
     let costpermonth = 0;
     let viewspermonth = 0;
